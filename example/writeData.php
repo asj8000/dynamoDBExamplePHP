@@ -12,6 +12,7 @@
  * 정확한 실 테스트를 거치지 않은 설명용 로직이기에 확인용으로 사용해주시면 감사하겠습니다.
  */
 
+require_once($_SERVER['DOCUMENT_ROOT'] . '/aws/aws-autoloader.php');
 require $_SERVER['DOCUMENT_ROOT'].'/lib/DBConnectionConfig.php';
 require $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
 
